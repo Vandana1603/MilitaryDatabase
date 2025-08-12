@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MilitaryDB Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<marquee>WELCOME PATRIOTS!</marquee>
+<div class="bg-wrapper">
+
+  <div class="bg-scroll">
+    <img src="mdbbackground.jpg" alt="">
+    <img src="mdbb3.jpg" alt="">
+     <img src="mdb2.jpg" alt="">
+    <img src="mdbbackground.jpg" alt="">
+    <img src="mdb2.jpg" alt="">
+    <img src="mdbb3.jpg" alt="">
+  </div>
+</div>
+
+
+
+<body>
+  <h1><center>Welcome to MilitaryDB</center></h1>
+  
+
+  <div id="login-section">
+    <center><img src="mdb.jpg" width=450 height=200></center>
+    <H1><center>LOGIN</center></H1>
+
+    <form id="login-form"><center>
+      <label>Username: <input type="text" id="username" required ></label><br>
+      <label>Password: <input type="password" id="password" required></label><br>
+      <button type="submit">Login</button>
+      </center>
+    </form>
+    <p id="login-error" style="color:red;"></p>
+  </div>
+  <style>
+  /* Set text color for everything in the login section */
+  #login-section {
+    color: #5fb9ee; /* Dark blue or your preferred color */
+    font-family: Arial, sans-serif;
+    
+  }
+
+  /* Specifically target the form labels and inputs */
+  #login-form label {
+    color: #003366;
+    font-size: 18px;
+    background-color: #aaa;
+  }
+
+  #login-form input {
+    color: #000; /* Text inside input fields */
+    border: 10px solid #aaa;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #login-form button {
+    color: white;               /* Button text color */
+    background-color: #336699; /* Button background */
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  #login-form button:hover {
+    background-color: #5588cc;
+  }
+
+  h2 {
+    color: #54cad5;
+    
+  }
+</style>
+
+
+  <div id="dashboard" style="display:none;">
+    <h2>Dashboard</h2>
+    <button onclick="loadData('personnel')">View Personnel</button>
+    <button onclick="loadData('logistics')">View Logistics</button>
+    <button onclick="loadData('mission')">View Mission</button>
+    <button onclick="logout()">Logout</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
