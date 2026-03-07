@@ -9,12 +9,53 @@ This project focuses on database design, backend development using Node.js, fron
 
 **TECHNOLOGICAL STACK USED:**
 
-**Database Management System (DBMS):**  MySQL 8.0 or later
+**Database:** SQL Database (MySQL)
 
 **Backend:**  Node.js with Express.js framework
 
 **Frontend:**  HTML, CSS, JavaScript.
 
-<img width="580" height="332" alt="image" src="https://github.com/user-attachments/assets/98664e07-49f7-49a7-85eb-15727e8cdc36" />
+
+**Project Structure**
+
+Military-db-project/
+│
+├── backend/
+│   ├── server.js        
+│   ├── db.js            
+│   │
+│   └── routes/
+│       ├── personnel.js   
+│       ├── logistics.js   
+│       └── mission.js     
+│
+└── frontend/
+    ├── index.html        
+    ├── script.js          
+    └── style.css          
+
+
+
+1.Install Backend Dependencies
+
+npm install
+
+2. Start the Server
+
+node backend/server.js
+
+4. Run the Frontend
+
+Open the file: frontend/index.html in a web browser.
+
+
+**System Architecture**
+
+
+Frontend (HTML, CSS, JavaScript)
+=>
+Backend API (Node.js + Express.js)
+=>
+Database (SQL-based DBMS)
 
 -Author Vandana K
