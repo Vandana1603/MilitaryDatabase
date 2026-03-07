@@ -19,8 +19,10 @@ This project focuses on database design, backend development using Node.js, fron
 **Project Structure**
 
 Military-db-project/
+
 │
 ├── backend/
+
 │   ├── server.js        
 │   ├── db.js            
 │   │
@@ -29,6 +31,7 @@ Military-db-project/
 │       ├── logistics.js   
 │       └── mission.js     
 │
+
 └── frontend/
     ├── index.html        
     ├── script.js          
@@ -40,11 +43,11 @@ Military-db-project/
 
 npm install
 
-2. Start the Server
+2.Start the Server
 
 node backend/server.js
 
-4. Run the Frontend
+3.Run the Frontend
 
 Open the file: frontend/index.html in a web browser.
 
@@ -54,8 +57,10 @@ Open the file: frontend/index.html in a web browser.
 
 Frontend (HTML, CSS, JavaScript)
 =>
+
 Backend API (Node.js + Express.js)
 =>
+
 Database (SQL-based DBMS)
 
 -Author Vandana K
